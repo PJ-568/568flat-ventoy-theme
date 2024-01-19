@@ -8,6 +8,6 @@
 
 Copy the `568flat` folder into `ventoy/themes` which should be located in the partition where your ISOs are located.
 
-Make sure that `ventoy/ventoy.json` contains `"{theme":{"file": "/ventoy/themes/568flat/theme.txt"}}`.
+Make sure that `ventoy/ventoy.json` contains `{"theme":{"file": "/ventoy/themes/568flat/theme.txt"}}`.
 
 [More info for ventoy themes.](https://www.ventoy.net/en/plugin_theme.html)
