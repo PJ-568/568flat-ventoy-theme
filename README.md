@@ -52,4 +52,4 @@ Make sure that `ventoy/ventoy.json` contains:
 
 [About Smiley Sans](https://github.com/atelier-anchor/smiley-sans)
 
-[More info for ventoy themes.](https://www.ventoy.net/en/plugin_theme.html)
+[More info about ventoy themes](https://www.ventoy.net/en/plugin_theme.html)
