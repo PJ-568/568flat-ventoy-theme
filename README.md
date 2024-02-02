@@ -10,7 +10,7 @@
 
 ## Installation
 
-If the resolution is not over than 2048x1088, please goto [568flat Installation](#568flat-installation); Else, goto [568flat_x2 Installation](#568flat_x2-installation).
+If the resolution is not over 2048x1088, please goto [568flat Installation](#568flat-installation); Else, goto [568flat_x2 Installation](#568flat_x2-installation).
 
 ### 568flat Installation
 
