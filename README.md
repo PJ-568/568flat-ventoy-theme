@@ -50,6 +50,11 @@ Make sure that `ventoy/ventoy.json` contains:
 
 ---
 
+I will be happy to see comments and suggestions.
+:-D
+
+---
+
 [About Smiley Sans](https://github.com/atelier-anchor/smiley-sans)
 
 [More info about ventoy themes](https://www.ventoy.net/en/plugin_theme.html)
