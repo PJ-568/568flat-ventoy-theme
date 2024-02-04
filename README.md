@@ -1,5 +1,7 @@
 # ![演示图](assets/概念图2.png)
 
+> 🗃️[Github](https://github.com/PJ-568/568flat-ventoy-theme) | [Gitee](https://gitee.com/PJ-568/568flat-ventoy-theme) | [Pling](https://www.pling.com/p/2123244)
+
 ## 568flat
 
 568flat is a cool grub 2 theme which is designed for ventoy.
