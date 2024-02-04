@@ -50,7 +50,7 @@ Make sure that `ventoy/ventoy.json` contains:
 
 ---
 
-I will be happy to see comments and suggestions.
+Please leave your comments and suggestions.
 :-D
 
 ---
