@@ -14,16 +14,20 @@
 
 If the resolution is not over 2048x1088, please goto [568flat Installation](#568flat-installation); Else, goto [568flat_x2 Installation](#568flat_x2-installation).
 
+Download the theme and extract it.
+
 ### 568flat Installation
 
 Copy the `568flat` folder into `ventoy/themes` which should be located in the partition where your ISOs are located.
 
-Make sure that `ventoy/ventoy.json` contains:
+Make sure that `ventoy/ventoy.json` (at least) contains:
 
 ```json
 {
     "theme":{
-        "file": "/ventoy/themes/568flat/theme.txt",
+        "file":[
+            "/ventoy/themes/568flat/theme.txt"
+        ],
         "fonts":[
             "/ventoy/themes/568flat/SmileySans-Oblique_48.pf2",
             "/ventoy/themes/568flat/SmileySans-Oblique_32.pf2"
@@ -36,12 +40,14 @@ Make sure that `ventoy/ventoy.json` contains:
 
 Copy the `568flat_x2` folder into `ventoy/themes` which should be located in the partition where your ISOs are located.
 
-Make sure that `ventoy/ventoy.json` contains:
+Make sure that `ventoy/ventoy.json` (at least) contains:
 
 ```json
 {
     "theme":{
-        "file": "/ventoy/themes/568flat_x2/theme.txt",
+        "file":[
+            "/ventoy/themes/568flat_x2/theme.txt"
+        ],
         "fonts":[
             "/ventoy/themes/568flat_x2/SmileySans-Oblique_96.pf2",
             "/ventoy/themes/568flat_x2/SmileySans-Oblique_64.pf2"
@@ -50,9 +56,21 @@ Make sure that `ventoy/ventoy.json` contains:
 }
 ```
 
+## Q&A
+
+- Could not find some of the files or directories in my ventoy disk.
+  - Please create one if missing.
+- UI looks too small on my screen.
+  - Lower the resolution of ventoy or use hi-res version of the theme, such as 568flat_x2 instead of 568flat.
+- Does the theme supports grub?
+  - In theory, yes. But it is not tested.
+- Why using a picture instead of a label as title?
+  - Some how, I could only make ventoy use the last font it loads by now. So a picture is used temporarily.
+
 ---
 
-Please leave your comments and suggestions.
+Please leave your comments and suggestions. Let me know if what is wrong or can be improved.
+
 :-D
 
 ---
