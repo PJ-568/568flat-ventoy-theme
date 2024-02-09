@@ -1,0 +1,231 @@
+# Copyright (C) 2024 PJ568
+
+
+# 全局设置 | General
+title-text: ""
+desktop-color: "#f9f7f0"
+# message-font: "Smiley Sans Italic 64"
+message-color: "#072a40"
+
+
+# 标题 | Title
++ hbox {
+  left = 50%-1023
+  width = 826
+  top = 50%-543
+  height = 126
+  + image {
+    file = "PJ568-126.png"
+    width = 126
+    height = 126
+  }
+  # + label {
+  #   text = "Ventoy"
+  #   font = "Smiley Sans Italic 96"
+  #   color = "#072a40"
+  # }
+  + image {
+    file = "Title.png"
+  }
+}
+
+
+# 遮蔽（上、右、下、左）| Shadow (up, right, down, left)
++ image {
+  file = "shadow_c.png"
+  left = 0
+  width = 50%+1024
+  top = 0
+  height = 50%-544
+}
++ image {
+  file = "shadow_c.png"
+  left = 50%+1024
+  width = 50%-1023
+  top = 0
+  height = 50%+544
+}
++ image {
+  file = "shadow_c.png"
+  left = 50%-1024
+  width = 50%+1025
+  top = 50%+544
+  height = 50%-543
+}
++ image {
+  file = "shadow_c.png"
+  left = 0
+  width = 50%-1024
+  top = 50%-544
+  height = 50%+545
+}
+
+
+# 提示信息 | Information text
+# + vbox {
+#   left = 50%+512
+#   top = 50%-544
+#   width = 512
+#   height = 1088
+#   + label {text = "@VTOY_HOTKEY_TIP@"
+#     font = "Smiley Sans Italic 64"
+#     color = "#f9f7f0"
+#     align = "center"
+#   } 
+# }
++ vbox {
+  left = 50%+576
+  top = 50%-416
+  width = 512
+  height = 1088
+  + label {
+    text = "[e]  Edit"
+    font = "Smiley Sans Italic 64"
+    color = "#f9f7f0"
+  }
+  + label {
+    text = "[c]  Command"
+    font = "Smiley Sans Italic 64"
+    color = "#f9f7f0"
+  }
+  + label {
+    text = "[F1] Help"
+    font = "Smiley Sans Italic 64"
+    color = "#f9f7f0"
+  }
+  + label {
+    text = "[F2] Browser"
+    font = "Smiley Sans Italic 64"
+    color = "#f9f7f0"
+  }
+  + label {
+    text = "[F3] ListView"
+    font = "Smiley Sans Italic 64"
+    color = "#f9f7f0"
+  }
+  + label {
+    text = "[F4] Localboot"
+    font = "Smiley Sans Italic 64"
+    color = "#f9f7f0"
+  }
+  + label {
+    text = "[F5] Tools"
+    font = "Smiley Sans Italic 64"
+    color = "#f9f7f0"
+  }
+  + label {
+    text = "[F6] ExMenu"
+    font = "Smiley Sans Italic 64"
+    color = "#f9f7f0"
+  }
+}
+
+
+# 工具栏 | Information box
++ image {
+  file = "info_c.png"
+  left = 50%+512
+  width = 50%-511
+  top = 0
+  height = 101%
+}
+
+
+# 进度（数字）| Progress
++ progress_bar {
+  id = "__timeout__"
+  text = "@TIMEOUT_NOTIFICATION_SHORT@"
+  font = "Smiley Sans Italic 64"
+
+  left = 50%+384
+  width = 128
+  top = 50%+416
+  height = 128
+
+  text_color = "#f9f7f0"
+  bar_style = "status_*.png"
+  highlight_style = "box_*.png"
+}
+
+
+# 状态信息 | Status text
++ hbox {
+  left = 50%-1024
+  top = 50%+417
+  height = 126
+  + label {
+    text = ":-)"
+    font = "Smiley Sans Italic 64"
+    width = 128
+    color = "#f9f7f0"
+    align = "center"
+  }
+  + label {
+    text = "@VTOY_MEM_DISK@"
+    font = "Smiley Sans Italic 32"
+    width = 292
+    color = "#f9f7f0"
+    align = "center"
+  }
+  + label {
+    text = "@VTOY_ISO_RAW@"
+    font = "Smiley Sans Italic 32"
+    width = 400
+    color = "#f9f7f0"
+    align = "center"
+  }
+  + label {
+    text = "@VTOY_GRUB2_MODE@"
+    font = "Smiley Sans Italic 32"
+    width = 292
+    color = "#f9f7f0"
+    align = "center"
+  }
+  + label {
+    text = "@VTOY_ISO_UEFI_DRV@"
+    font = "Smiley Sans Italic 32"
+    width = 292
+    color = "#f9f7f0"
+    align = "center"
+  }
+  + label {
+    text = "@VTOY_WIMBOOT_MODE@"
+    font = "Smiley Sans Italic 32"
+    width = 320
+    color = "#f9f7f0"
+    align = "center"
+  }
+}
+
+
+# 状态栏 | Status box
++ image {
+  file = "status_c.png"
+  left = 0
+  width = 100%
+  top = 50%+416
+  height = 50%-415
+}
+
+
+# 主菜单 | Main
++ boot_menu {
+  left = 50%-1024
+  width = 1536
+  top = 50%-416
+  height = 832
+
+  item_font = "Smiley Sans Italic 64"
+  item_color = "#072a40"
+  selected_item_color = "#f9f7f0"
+  # item_icon_space = 64
+  item_height = 96
+  item_padding = 0
+  item_spacing = 0
+  selected_item_pixmap_style = "select_*.png"
+
+  scrollbar = true
+  scrollbar_width = 16
+  scrollbar_thumb = "box_*.png"
+  scrollbar_slice = "center"
+}

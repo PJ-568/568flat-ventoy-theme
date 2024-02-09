@@ -1,0 +1,238 @@
+# Copyright (C) 2024 PJ568
+
+
+# 全局设置 | General
+title-text: ""
+desktop-color: "#f9f7f0"
+# message-font: "Smiley Sans Italic 32"
+message-color: "#072a40"
+
+
+# 标题 | Title
++ hbox {
+  left = 50%-511
+  width = 766
+  top = 50%-271
+  height = 62
+  + image {
+    file = "PJ568-62.png"
+    width = 62
+    height = 62
+  }
+  # + label {
+  #   text = "Ventoy"
+  #   font = "Smiley Sans Italic 48"
+  #   color = "#072a40"
+  # }
+  + image {
+    file = "Title.png"
+  }
+}
+
+
+# 遮蔽（上、右、下、左）| Shadow (up, right, down, left)
++ image {
+  file = "shadow_c.png"
+  left = 0
+  width = 50%+512
+  top = 0
+  height = 50%-272
+}
++ image {
+  file = "shadow_c.png"
+  left = 50%+512
+  width = 50%-511
+  top = 0
+  height = 50%+272
+}
++ image {
+  file = "shadow_c.png"
+  left = 50%-512
+  width = 50%+513
+  top = 50%+272
+  height = 50%-271
+}
++ image {
+  file = "shadow_c.png"
+  left = 0
+  width = 50%-512
+  top = 50%-272
+  height = 50%+273
+}
+
+
+# 提示信息 | Information text
+# + vbox {
+#   left = 50%+256
+#   top = 50%-272
+#   width = 256
+#   height = 544
+#   + label {text = "@VTOY_HOTKEY_TIP@"
+#     font = "Smiley Sans Italic 32"
+#     color = "#f9f7f0"
+#     align = "center"
+#   } 
+# }
++ vbox {
+  left = 50%+288
+  top = 50%-208
+  width = 256
+  height = 544
+  + label {
+    text = "[e]  Edit"
+    font = "Smiley Sans Italic 32"
+    color = "#f9f7f0"
+  }
+  + label {
+    text = "[c]  Command"
+    font = "Smiley Sans Italic 32"
+    color = "#f9f7f0"
+  }
+  + label {
+    text = "[F1] Help"
+    font = "Smiley Sans Italic 32"
+    color = "#f9f7f0"
+  }
+  + label {
+    text = "[F2] Browser"
+    font = "Smiley Sans Italic 32"
+    color = "#f9f7f0"
+  }
+  + label {
+    text = "[F3] ListView"
+    font = "Smiley Sans Italic 32"
+    color = "#f9f7f0"
+  }
+  + label {
+    text = "[F4] Localboot"
+    font = "Smiley Sans Italic 32"
+    color = "#f9f7f0"
+  }
+  + label {
+    text = "[F5] Tools"
+    font = "Smiley Sans Italic 32"
+    color = "#f9f7f0"
+  }
+  + label {
+    text = "[F6] ExMenu"
+    font = "Smiley Sans Italic 32"
+    color = "#f9f7f0"
+  }
+}
+# + image {
+#   file = "Info.png"
+#   left = 50%+256
+#   top = 50%-272
+#   width = 256
+#   height = 544
+# }
+
+
+# 工具栏 | Information box
++ image {
+  file = "info_c.png"
+  left = 50%+256
+  width = 50%-255
+  top = 0
+  height = 101%
+}
+
+
+# 进度（数字）| Progress
++ progress_bar {
+  id = "__timeout__"
+  text = "@TIMEOUT_NOTIFICATION_SHORT@"
+  font = "Smiley Sans Italic 32"
+
+  left = 50%+192
+  width = 64
+  top = 50%+208
+  height = 64
+
+  text_color = "#f9f7f0"
+  bar_style = "status_*.png"
+  highlight_style = "box_*.png"
+}
+
+
+# 状态信息 | Status text
++ hbox {
+  left = 50%-512
+  top = 50%+209
+  height = 62
+  + label {
+    text = ":-)"
+    font = "Smiley Sans Italic 32"
+    width = 64
+    color = "#f9f7f0"
+    align = "center"
+  }
+  + label {
+    text = "@VTOY_MEM_DISK@"
+    font = "Smiley Sans Italic 32"
+    width = 146
+    color = "#f9f7f0"
+    align = "center"
+  }
+  + label {
+    text = "@VTOY_ISO_RAW@"
+    font = "Smiley Sans Italic 32"
+    width = 200
+    color = "#f9f7f0"
+    align = "center"
+  }
+  + label {
+    text = "@VTOY_GRUB2_MODE@"
+    font = "Smiley Sans Italic 32"
+    width = 146
+    color = "#f9f7f0"
+    align = "center"
+  }
+  + label {
+    text = "@VTOY_ISO_UEFI_DRV@"
+    font = "Smiley Sans Italic 32"
+    width = 146
+    color = "#f9f7f0"
+    align = "center"
+  }
+  + label {
+    text = "@VTOY_WIMBOOT_MODE@"
+    font = "Smiley Sans Italic 32"
+    width = 160
+    color = "#f9f7f0"
+    align = "center"
+  }
+}
+
+
+# 状态栏 | Status box
++ image {
+  file = "status_c.png"
+  left = 0
+  width = 100%
+  top = 50%+208
+  height = 50%-207
+}
+
+
+# 主菜单 | Main
++ boot_menu {
+  left = 50%-512
+  width = 768
+  top = 50%-208
+  height = 416
+
+  item_font = "Smiley Sans Italic 32"
+  item_color = "#072a40"
+  selected_item_color = "#f9f7f0"
+  # item_icon_space = 32
+  item_height = 48
+  item_padding = 0
+  item_spacing = 0
+  selected_item_pixmap_style = "select_*.png"
+
+  scrollbar = true
+  scrollbar_width = 8
+  scrollbar_thumb = "box_*.png"
+  scrollbar_slice = "center"
+}
