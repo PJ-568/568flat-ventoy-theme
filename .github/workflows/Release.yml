@@ -1,0 +1,26 @@
+on: 
+  push:
+    tags:
+      - "v*"
+
+jobs:
+  Release:
+    runs-on: ubuntu-latest
+    permissions: write-all
+    name: Export
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+
+    - name: Pack
+      run: |
+          mkdir Release
+          find . -type d -name "568flat*" -exec bash -c 'zip -r "./Release/$(basename {}).zip" "{}"' \;
+
+    - name: Create release
+      uses: ncipollo/release-action@v1
+      with:
+        token: ${{ secrets.TOKEN }}
+        generateReleaseNotes: true
+        tag: ${{ github.ref_name }}
+        artifacts: Release/*
