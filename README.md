@@ -1,4 +1,4 @@
-# ![演示图](assets/概念图2.png)
+# ![演示图](assets/概念图_发行.svg)
 
 > 🗃️[Github](https://github.com/PJ-568/568flat-ventoy-theme) | [Gitee](https://gitee.com/PJ-568/568flat-ventoy-theme) | [Pling](https://www.pling.com/p/2123244)
 
