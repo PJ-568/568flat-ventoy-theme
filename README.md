@@ -62,6 +62,8 @@ Make sure that `ventoy/ventoy.json` (at least) contains:
   - Please create one if missing.
 - UI looks too small on my screen.
   - Lower the resolution of ventoy or use hi-res version of the theme, such as 568flat_x2 instead of 568flat.
+- Did not see the display of \[Memdisk\] etc.
+  - The statuses should show when you enable them. And it works with ventoy only.
 - Does the theme supports grub?
   - In theory, yes. But it is not tested.
 - Why using a picture instead of a label as title?
