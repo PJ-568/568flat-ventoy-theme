@@ -79,7 +79,7 @@ message-color: "#072a40"
   width = 512
   height = 1088
   + label {
-    text = "[e]  编辑启动项"
+    text = "[e]  编辑选择项"
     font = "Smiley Sans Italic 64"
     color = "#f9f7f0"
   }
@@ -89,17 +89,17 @@ message-color: "#072a40"
     color = "#f9f7f0"
   }
   + label {
-    text = "[F1] 内存启动模式"
+    text = "[F1] 显示帮助信息"
     font = "Smiley Sans Italic 64"
     color = "#f9f7f0"
   }
   + label {
-    text = "[F2] 浏览本地文件"
+    text = "[F2] 浏览本地镜像"
     font = "Smiley Sans Italic 64"
     color = "#f9f7f0"
   }
   + label {
-    text = "[F3] 目录树"
+    text = "[F3] 切换菜单模式"
     font = "Smiley Sans Italic 64"
     color = "#f9f7f0"
   }
@@ -109,12 +109,12 @@ message-color: "#072a40"
     color = "#f9f7f0"
   }
   + label {
-    text = "[F5] 工具"
+    text = "[F5] 工具菜单"
     font = "Smiley Sans Italic 64"
     color = "#f9f7f0"
   }
   + label {
-    text = "[F6] 拓展菜单"
+    text = "[F6] 自定义菜单"
     font = "Smiley Sans Italic 64"
     color = "#f9f7f0"
   }
@@ -137,8 +137,8 @@ message-color: "#072a40"
   text = "@TIMEOUT_NOTIFICATION_SHORT@"
   font = "Smiley Sans Italic 64"
 
-  left = 50%+128
-  width = 384
+  left = 50%+384
+  width = 128
   top = 50%+416
   height = 128
 
@@ -154,23 +154,44 @@ message-color: "#072a40"
   top = 50%+417
   height = 126
   + label {
-    text = "@VTOY_MEM_DISK@"
+    text = ":-)"
     font = "Smiley Sans Italic 64"
-    width = 384
+    width = 128
+    color = "#f9f7f0"
+    align = "center"
+  }
+  + label {
+    text = "@VTOY_MEM_DISK@"
+    font = "Smiley Sans Italic 32"
+    width = 292
     color = "#f9f7f0"
     align = "center"
   }
   + label {
     text = "@VTOY_ISO_RAW@"
-    font = "Smiley Sans Italic 64"
-    width = 384
+    font = "Smiley Sans Italic 32"
+    width = 400
+    color = "#f9f7f0"
+    align = "center"
+  }
+  + label {
+    text = "@VTOY_GRUB2_MODE@"
+    font = "Smiley Sans Italic 32"
+    width = 292
     color = "#f9f7f0"
     align = "center"
   }
   + label {
     text = "@VTOY_ISO_UEFI_DRV@"
-    font = "Smiley Sans Italic 64"
-    width = 384
+    font = "Smiley Sans Italic 32"
+    width = 292
+    color = "#f9f7f0"
+    align = "center"
+  }
+  + label {
+    text = "@VTOY_WIMBOOT_MODE@"
+    font = "Smiley Sans Italic 32"
+    width = 320
     color = "#f9f7f0"
     align = "center"
   }
