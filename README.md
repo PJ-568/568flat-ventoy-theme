@@ -66,6 +66,8 @@ Make sure that `ventoy/ventoy.json` (at least) contains:
   - The statuses should show when you enable them. And it works with ventoy only.
 - Does the theme supports grub?
   - In theory, yes. But it is not tested.
+- What font is this?
+  - [Smiley Sans](https://github.com/atelier-anchor/smiley-sans).
 - Why using a picture instead of a label as title?
   - Some how, I could only make ventoy use the last font it loads by now. So a picture is used temporarily.
 
