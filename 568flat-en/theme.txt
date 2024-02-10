@@ -120,7 +120,7 @@ message-color: "#072a40"
   }
 }
 # + image {
-#   file = "Info.png"
+#   file = "Info-en.png"
 #   left = 50%+256
 #   top = 50%-272
 #   width = 256
