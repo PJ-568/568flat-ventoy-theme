@@ -139,19 +139,22 @@ message-color: "#072a40"
 
 
 # 进度（数字）| Progress
-+ progress_bar {
++ label {
   id = "__timeout__"
-  text = "@TIMEOUT_NOTIFICATION_SHORT@"
+  # text = "@TIMEOUT_NOTIFICATION_SHORT@"
+  text = "%ds"
   font = "Smiley Sans Italic 32"
+  align = "center"
 
   left = 50%+192
   width = 64
   top = 50%+208
   height = 64
 
-  text_color = "#f9f7f0"
-  bar_style = "status_*.png"
-  highlight_style = "box_*.png"
+  color = "#f9f7f0"
+  # text_color = "#f9f7f0"
+  # bar_style = "status_*.png"
+  # highlight_style = "box_*.png"
 }
 
 
@@ -170,38 +173,38 @@ message-color: "#072a40"
   + label {
     text = "@VTOY_MEM_DISK@"
     font = "Smiley Sans Italic 32"
-    width = 146
+    width = 136
     color = "#f9f7f0"
     align = "center"
   }
   + label {
     text = "@VTOY_ISO_RAW@"
     font = "Smiley Sans Italic 32"
-    width = 200
+    width = 230
     color = "#f9f7f0"
     align = "center"
   }
   + label {
     text = "@VTOY_GRUB2_MODE@"
     font = "Smiley Sans Italic 32"
-    width = 146
+    width = 136
     color = "#f9f7f0"
     align = "center"
   }
   + label {
     text = "@VTOY_ISO_UEFI_DRV@"
     font = "Smiley Sans Italic 32"
-    width = 146
+    width = 136
     color = "#f9f7f0"
     align = "center"
   }
-  + label {
-    text = "@VTOY_WIMBOOT_MODE@"
-    font = "Smiley Sans Italic 32"
-    width = 160
-    color = "#f9f7f0"
-    align = "center"
-  }
+  # + label {
+  #   text = "@VTOY_WIMBOOT_MODE@"
+  #   font = "Smiley Sans Italic 32"
+  #   width = 160
+  #   color = "#f9f7f0"
+  #   align = "center"
+  # }
 }
 
 
