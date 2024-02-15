@@ -18,7 +18,7 @@ Download the theme and extract it.
 
 ### 568flat Installation
 
-Copy the `568flat` folder into `ventoy/themes` which should be located in the partition where your ISOs are located.
+Copy the `568flat` folder (`568flat-en` folder for English version) into `ventoy/themes` which should be located in the partition where your ISOs are located.
 
 Make sure that `ventoy/ventoy.json` (at least) contains:
 
@@ -36,9 +36,25 @@ Make sure that `ventoy/ventoy.json` (at least) contains:
 }
 ```
 
+English version:
+
+```json
+{
+    "theme":{
+        "file":[
+            "/ventoy/themes/568flat-en/theme.txt"
+        ],
+        "fonts":[
+            "/ventoy/themes/568flat-en/SmileySans-Oblique_48.pf2",
+            "/ventoy/themes/568flat-en/SmileySans-Oblique_32.pf2"
+        ]
+    }
+}
+```
+
 ### 568flat_x2 Installation
 
-Copy the `568flat_x2` folder into `ventoy/themes` which should be located in the partition where your ISOs are located.
+Copy the `568flat_x2` folder (`568flat_x2-en` folder for English version) into `ventoy/themes` which should be located in the partition where your ISOs are located.
 
 Make sure that `ventoy/ventoy.json` (at least) contains:
 
@@ -51,6 +67,22 @@ Make sure that `ventoy/ventoy.json` (at least) contains:
         "fonts":[
             "/ventoy/themes/568flat_x2/SmileySans-Oblique_96.pf2",
             "/ventoy/themes/568flat_x2/SmileySans-Oblique_64.pf2"
+        ]
+    }
+}
+```
+
+English version:
+
+```json
+{
+    "theme":{
+        "file":[
+            "/ventoy/themes/568flat_x2-en/theme.txt"
+        ],
+        "fonts":[
+            "/ventoy/themes/568flat_x2-en/SmileySans-Oblique_96.pf2",
+            "/ventoy/themes/568flat_x2-en/SmileySans-Oblique_64.pf2"
         ]
     }
 }
