@@ -6,6 +6,10 @@ title-text: ""
 desktop-color: "#f9f7f0"
 # message-font: "Smiley Sans Italic 32"
 message-color: "#072a40"
+terminal-left: "50%-512"
+terminal-top: "50%-272"
+terminal-width: "1024"
+terminal-height: "544"
 
 
 # 标题 | Title
