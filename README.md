@@ -105,7 +105,7 @@ English version:
 
 ---
 
-Please leave your comments and suggestions. Let me know if what is wrong or can be improved.
+Please leave your comments and suggestions. Let me know if anything is wrong or can be improved.
 
 :-D
 
