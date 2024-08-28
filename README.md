@@ -14,7 +14,7 @@
 
 If the resolution is not over 2048x1088, please goto [568flat Installation](#568flat-installation); Else, goto [568flat_x2 Installation](#568flat_x2-installation).
 
-Download the theme and extract it.
+[Download](https://github.com/PJ-568/568flat-ventoy-theme/releases) the theme and extract it.
 
 ### 568flat Installation
 
