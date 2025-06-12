@@ -30,15 +30,15 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="px"
      showgrid="false"
-     inkscape:zoom="0.62092452"
-     inkscape:cx="391.35192"
-     inkscape:cy="417.11994"
+     inkscape:zoom="1.241849"
+     inkscape:cx="279.42205"
+     inkscape:cy="462.21399"
      inkscape:window-width="1440"
      inkscape:window-height="878"
      inkscape:window-x="-6"
      inkscape:window-y="-6"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1-5" />
+     inkscape:current-layer="layer2" />
   <defs
      id="defs2">
     <rect
@@ -140,44 +140,56 @@
      sodipodi:insensitive="true">
     <text
        xml:space="preserve"
-       transform="matrix(0.26458333,0,0,0.26458333,7.6700144,8.5222382)"
+       transform="matrix(0.26458333,0,0,0.26458333,3.9658475,8.5222382)"
        id="text5"
        style="font-style:oblique;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:'Smiley Sans';-inkscape-font-specification:'Smiley Sans Oblique';white-space:pre;shape-inside:url(#rect6);shape-padding:1.6105;display:inline;fill:#ffffff"
        inkscape:label="状态"
        sodipodi:insensitive="true"><tspan
          x="88.578125"
          y="578.89408"
-         id="tspan31"><tspan
-           style="fill:#f9f7f0"
-           id="tspan30">:-)      [Memdisk]</tspan></tspan></text>
+         id="tspan2"><tspan
+           style="font-style:normal;font-weight:500;font-family:'Maple Mono NF CN';-inkscape-font-specification:'Maple Mono NF CN, Medium';fill:#f9f7f0"
+           id="tspan1">=)[Memdisk]</tspan></tspan></text>
     <text
        xml:space="preserve"
-       transform="matrix(0.26458333,0,0,0.26458333,15.833701,-1.1236609)"
+       transform="matrix(0.26458333,0,0,0.26458333,8.9545306,-1.1236609)"
        id="text6"
        style="font-style:oblique;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:41px;line-height:1.4;font-family:'Smiley Sans';-inkscape-font-specification:'Smiley Sans Oblique';white-space:pre;shape-inside:url(#rect7);display:inline;fill:#072a40;fill-opacity:1"
        inkscape:label="主选项"
        sodipodi:insensitive="true"><tspan
          x="83.746094"
          y="212.45691"
-         id="tspan33"><tspan
-   style="fill:#f9f7f0"
-   id="tspan32">Windows 11</tspan>
-</tspan><tspan
+         id="tspan7"><tspan
+           style="font-style:normal;font-weight:500;font-family:'Maple Mono NF CN';-inkscape-font-specification:'Maple Mono NF CN, Medium';fill:#f9f7f0"
+           id="tspan3">Windows 11</tspan><tspan
+           style="font-style:normal;font-weight:500;font-family:'Maple Mono NF CN';-inkscape-font-specification:'Maple Mono NF CN, Medium'"
+           id="tspan5">
+</tspan></tspan><tspan
          x="83.746094"
-         y="269.8569"
-         id="tspan34">Deepin 23
-</tspan><tspan
+         y="270.10779"
+         id="tspan19"><tspan
+           style="font-style:normal;font-weight:500;font-family:'Maple Mono NF CN';-inkscape-font-specification:'Maple Mono NF CN, Medium'"
+           id="tspan18">Deepin 23
+</tspan></tspan><tspan
          x="83.746094"
-         y="327.2569"
-         id="tspan35">ReactOS
-</tspan><tspan
+         y="327.75867"
+         id="tspan22"><tspan
+           style="font-style:normal;font-weight:500;font-family:'Maple Mono NF CN';-inkscape-font-specification:'Maple Mono NF CN, Medium'"
+           id="tspan21">ReactOS
+</tspan></tspan><tspan
          x="83.746094"
-         y="384.65689"
-         id="tspan36">恢复环境
-</tspan><tspan
+         y="385.40955"
+         id="tspan24"><tspan
+           style="font-style:normal;font-weight:500;font-family:'Maple Mono NF CN';-inkscape-font-specification:'Maple Mono NF CN, Medium'"
+           id="tspan23">恢复环境
+</tspan></tspan><tspan
          x="83.746094"
-         y="442.05689"
-         id="tspan37">UEFI 选项</tspan></text>
+         y="443.06043"
+         id="tspan27"><tspan
+           style="font-style:normal;font-weight:500;font-family:'Maple Mono NF CN';-inkscape-font-specification:'Maple Mono NF CN, Medium'"
+           id="tspan25">UEFI </tspan><tspan
+           style="font-style:normal;font-weight:500;font-family:'Maple Mono NF CN';-inkscape-font-specification:'Maple Mono NF CN, Medium'"
+           id="tspan26">选项</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-141.0118,14.967025)"
@@ -189,81 +201,81 @@
        sodipodi:insensitive="true"><tspan
          x="936.20898"
          y="123.80472"
-         id="tspan40"><tspan
-           style="fill:#f9f7f0"
-           id="tspan38">[ e ] </tspan><tspan
-           style="fill:#f9f7f0"
-           id="tspan39">编辑选择项
+         id="tspan30"><tspan
+           style="font-weight:500;font-size:28px;font-family:'Maple Mono NF CN';-inkscape-font-specification:'Maple Mono NF CN, Medium';fill:#f9f7f0"
+           id="tspan28">[e]  </tspan><tspan
+           style="font-weight:500;font-size:28px;font-family:'Maple Mono NF CN';-inkscape-font-specification:'Maple Mono NF CN, Medium';fill:#f9f7f0"
+           id="tspan29">编辑命令
 </tspan></tspan><tspan
          x="936.20898"
          y="178.20471"
-         id="tspan44"><tspan
-           style="fill:#f9f7f0"
-           id="tspan41">[ </tspan><tspan
-           style="fill:#f9f7f0"
-           id="tspan42">c </tspan><tspan
-           style="fill:#f9f7f0"
-           id="tspan43">] 命令行
+         id="tspan34"><tspan
+           style="font-weight:500;font-size:28px;font-family:'Maple Mono NF CN';-inkscape-font-specification:'Maple Mono NF CN, Medium';fill:#f9f7f0"
+           id="tspan31">[</tspan><tspan
+           style="font-weight:500;font-size:28px;font-family:'Maple Mono NF CN';-inkscape-font-specification:'Maple Mono NF CN, Medium';fill:#f9f7f0"
+           id="tspan32">c</tspan><tspan
+           style="font-weight:500;font-size:28px;font-family:'Maple Mono NF CN';-inkscape-font-specification:'Maple Mono NF CN, Medium';fill:#f9f7f0"
+           id="tspan33">]  命令行
 </tspan></tspan><tspan
          x="936.20898"
          y="232.60471"
-         id="tspan48"><tspan
-           style="fill:#f9f7f0"
-           id="tspan45">[</tspan><tspan
-           style="fill:#f9f7f0"
-           id="tspan46">F1</tspan><tspan
-           style="fill:#f9f7f0"
-           id="tspan47">] 显示帮助信息
+         id="tspan38"><tspan
+           style="font-weight:500;font-size:28px;font-family:'Maple Mono NF CN';-inkscape-font-specification:'Maple Mono NF CN, Medium';fill:#f9f7f0"
+           id="tspan35">[</tspan><tspan
+           style="font-weight:500;font-size:28px;font-family:'Maple Mono NF CN';-inkscape-font-specification:'Maple Mono NF CN, Medium';fill:#f9f7f0"
+           id="tspan36">F1</tspan><tspan
+           style="font-weight:500;font-size:28px;font-family:'Maple Mono NF CN';-inkscape-font-specification:'Maple Mono NF CN, Medium';fill:#f9f7f0"
+           id="tspan37">] 帮助信息
 </tspan></tspan><tspan
          x="936.20898"
          y="287.0047"
-         id="tspan52"><tspan
-           style="fill:#f9f7f0"
-           id="tspan49">[</tspan><tspan
-           style="fill:#f9f7f0"
-           id="tspan50">F2</tspan><tspan
-           style="fill:#f9f7f0"
-           id="tspan51">] 浏览本地镜像
+         id="tspan42"><tspan
+           style="font-weight:500;font-size:28px;font-family:'Maple Mono NF CN';-inkscape-font-specification:'Maple Mono NF CN, Medium';fill:#f9f7f0"
+           id="tspan39">[</tspan><tspan
+           style="font-weight:500;font-size:28px;font-family:'Maple Mono NF CN';-inkscape-font-specification:'Maple Mono NF CN, Medium';fill:#f9f7f0"
+           id="tspan40">F2</tspan><tspan
+           style="font-weight:500;font-size:28px;font-family:'Maple Mono NF CN';-inkscape-font-specification:'Maple Mono NF CN, Medium';fill:#f9f7f0"
+           id="tspan41">] 本地镜像
 </tspan></tspan><tspan
          x="936.20898"
          y="341.40469"
-         id="tspan67"><tspan
-           style="fill:#f9f7f0"
-           id="tspan53">[</tspan><tspan
-           style="fill:#f9f7f0"
-           id="tspan65">F3</tspan><tspan
-           style="fill:#f9f7f0"
-           id="tspan66">] 菜单模式
+         id="tspan46"><tspan
+           style="font-weight:500;font-size:28px;font-family:'Maple Mono NF CN';-inkscape-font-specification:'Maple Mono NF CN, Medium';fill:#f9f7f0"
+           id="tspan43">[</tspan><tspan
+           style="font-weight:500;font-size:28px;font-family:'Maple Mono NF CN';-inkscape-font-specification:'Maple Mono NF CN, Medium';fill:#f9f7f0"
+           id="tspan44">F3</tspan><tspan
+           style="font-weight:500;font-size:28px;font-family:'Maple Mono NF CN';-inkscape-font-specification:'Maple Mono NF CN, Medium';fill:#f9f7f0"
+           id="tspan45">] 菜单模式
 </tspan></tspan><tspan
          x="936.20898"
          y="395.80469"
-         id="tspan71"><tspan
-           style="fill:#f9f7f0"
-           id="tspan68">[</tspan><tspan
-           style="fill:#f9f7f0"
-           id="tspan69">F4</tspan><tspan
-           style="fill:#f9f7f0"
-           id="tspan70">] 本地启动
+         id="tspan50"><tspan
+           style="font-weight:500;font-size:28px;font-family:'Maple Mono NF CN';-inkscape-font-specification:'Maple Mono NF CN, Medium';fill:#f9f7f0"
+           id="tspan47">[</tspan><tspan
+           style="font-weight:500;font-size:28px;font-family:'Maple Mono NF CN';-inkscape-font-specification:'Maple Mono NF CN, Medium';fill:#f9f7f0"
+           id="tspan48">F4</tspan><tspan
+           style="font-weight:500;font-size:28px;font-family:'Maple Mono NF CN';-inkscape-font-specification:'Maple Mono NF CN, Medium';fill:#f9f7f0"
+           id="tspan49">] 本地启动
 </tspan></tspan><tspan
          x="936.20898"
          y="450.20468"
-         id="tspan75"><tspan
-           style="fill:#f9f7f0"
-           id="tspan72">[</tspan><tspan
-           style="fill:#f9f7f0"
-           id="tspan73">F5</tspan><tspan
-           style="fill:#f9f7f0"
-           id="tspan74">] 工具菜单
+         id="tspan56"><tspan
+           style="font-weight:500;font-size:28px;font-family:'Maple Mono NF CN';-inkscape-font-specification:'Maple Mono NF CN, Medium';fill:#f9f7f0"
+           id="tspan53">[</tspan><tspan
+           style="font-weight:500;font-size:28px;font-family:'Maple Mono NF CN';-inkscape-font-specification:'Maple Mono NF CN, Medium';fill:#f9f7f0"
+           id="tspan54">F5</tspan><tspan
+           style="font-weight:500;font-size:28px;font-family:'Maple Mono NF CN';-inkscape-font-specification:'Maple Mono NF CN, Medium';fill:#f9f7f0"
+           id="tspan55">] 工具菜单
 </tspan></tspan><tspan
          x="936.20898"
          y="504.60468"
-         id="tspan79"><tspan
-           style="fill:#f9f7f0"
-           id="tspan76">[</tspan><tspan
-           style="fill:#f9f7f0"
-           id="tspan77">F6</tspan><tspan
-           style="fill:#f9f7f0"
-           id="tspan78">] 自定义菜单</tspan></tspan></text>
+         id="tspan60"><tspan
+           style="font-weight:500;font-size:28px;font-family:'Maple Mono NF CN';-inkscape-font-specification:'Maple Mono NF CN, Medium';fill:#f9f7f0"
+           id="tspan57">[</tspan><tspan
+           style="font-weight:500;font-size:28px;font-family:'Maple Mono NF CN';-inkscape-font-specification:'Maple Mono NF CN, Medium';fill:#f9f7f0"
+           id="tspan58">F6</tspan><tspan
+           style="font-weight:500;font-size:28px;font-family:'Maple Mono NF CN';-inkscape-font-specification:'Maple Mono NF CN, Medium';fill:#f9f7f0"
+           id="tspan59">] 自定义</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-0.81616027,1.2326544)"
@@ -273,7 +285,9 @@
        inkscape:label="标题"><tspan
          x="161.2207"
          y="141.12515"
-         id="tspan80">Ventoy</tspan></text>
+         id="tspan62"><tspan
+           style="font-weight:500;font-family:'Maple Mono NF CN';-inkscape-font-specification:'Maple Mono NF CN, Medium'"
+           id="tspan61">Ventoy</tspan></tspan></text>
     <image
        preserveAspectRatio="none"
        inkscape:svg-dpi="192"

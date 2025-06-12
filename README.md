@@ -2,6 +2,8 @@
 
 > 🗃️[Github](https://github.com/PJ-568/568flat-ventoy-theme) | [Gitee](https://gitee.com/PJ-568/568flat-ventoy-theme) | [Pling](https://www.pling.com/p/2123244)
 
+English | [简体中文](README.zh-Hans.md)
+
 ## 568flat
 
 568flat is a cool grub 2 theme which is designed for ventoy.
@@ -29,8 +31,8 @@ Make sure that `ventoy/ventoy.json` (at least) contains:
             "/ventoy/themes/568flat/theme.txt"
         ],
         "fonts":[
-            "/ventoy/themes/568flat/SmileySans-Oblique_48.pf2",
-            "/ventoy/themes/568flat/SmileySans-Oblique_32.pf2"
+            "/ventoy/themes/568flat/MapleMono-CN-Medium_48.pf2",
+            "/ventoy/themes/568flat/MapleMono-CN-Medium_32.pf2"
         ]
     }
 }
@@ -45,8 +47,8 @@ English version:
             "/ventoy/themes/568flat-en/theme.txt"
         ],
         "fonts":[
-            "/ventoy/themes/568flat-en/SmileySans-Oblique_48.pf2",
-            "/ventoy/themes/568flat-en/SmileySans-Oblique_32.pf2"
+            "/ventoy/themes/568flat-en/MapleMono-CN-Medium_48.pf2",
+            "/ventoy/themes/568flat-en/MapleMono-CN-Medium_32.pf2"
         ]
     }
 }
@@ -65,8 +67,8 @@ Make sure that `ventoy/ventoy.json` (at least) contains:
             "/ventoy/themes/568flat_x2/theme.txt"
         ],
         "fonts":[
-            "/ventoy/themes/568flat_x2/SmileySans-Oblique_96.pf2",
-            "/ventoy/themes/568flat_x2/SmileySans-Oblique_64.pf2"
+            "/ventoy/themes/568flat_x2/MapleMono-CN-Medium_96.pf2",
+            "/ventoy/themes/568flat_x2/MapleMono-CN-Medium_64.pf2"
         ]
     }
 }
@@ -81,11 +83,18 @@ English version:
             "/ventoy/themes/568flat_x2-en/theme.txt"
         ],
         "fonts":[
-            "/ventoy/themes/568flat_x2-en/SmileySans-Oblique_96.pf2",
-            "/ventoy/themes/568flat_x2-en/SmileySans-Oblique_64.pf2"
+            "/ventoy/themes/568flat_x2-en/MapleMono-CN-Medium_96.pf2",
+            "/ventoy/themes/568flat_x2-en/MapleMono-CN-Medium_64.pf2"
         ]
     }
 }
+```
+
+## Build
+
+```bash
+chmod +x build.bash
+bash build.bash
 ```
 
 ## Q&A
@@ -93,13 +102,13 @@ English version:
 - Could not find some of the files or directories in my ventoy disk.
   - Please create one if missing.
 - UI looks too small on my screen.
-  - Lower the resolution of ventoy or use hi-res version of the theme, such as 568flat_x2 instead of 568flat.
-- \[Memdisk\] or other status not showing.
+  - Make the resolution of ventoy lower or use hi-res version of the theme, such as 568flat_x2 instead of 568flat.
+- `[Memdisk]` or other status not showing.
   - The statuses should show when you enable them. And it works with ventoy only.
 - Does the theme supports grub?
   - In theory, yes. But it is not tested.
 - What font is this?
-  - [Smiley Sans](https://github.com/atelier-anchor/smiley-sans).
+  - [Maple Mono](https://github.com/subframe7536/maple-font).
 - Why using a picture instead of a label as title?
   - Some how, I could only make ventoy use the last font it loads by now. So a picture is used temporarily.
 
@@ -111,6 +120,6 @@ Please leave your comments and suggestions. Let me know if anything is wrong or 
 
 ---
 
-[About Smiley Sans](https://github.com/atelier-anchor/smiley-sans)
+[About Maple Mono](https://github.com/subframe7536/maple-font)
 
 [More info about ventoy themes](https://www.ventoy.net/en/plugin_theme.html)

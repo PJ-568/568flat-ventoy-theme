@@ -4,7 +4,7 @@ on:
       - "v*"
 
 jobs:
-  Release:
+  release:
     runs-on: ubuntu-latest
     permissions: write-all
     name: Export
@@ -13,52 +13,10 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v4
 
-    - name: Get Release
-      id: get-release
-      uses: robinraju/release-downloader@v1.9
-      with:
-        repository: "atelier-anchor/smiley-sans"
-        latest: true
-        fileName: "*.zip"
-        # out-file-path: "Build"
-        # extract: true
-
-    - name: Check workspace
+    - name: Build
       run: |
-          ls $GITHUB_WORKSPACE/
-
-    - name: Make font
-      run: |
-          mkdir ./Build/
-          mkdir ./Build/x1/
-          mkdir ./Build/x2/
-          unzip -o ${{ fromJson(steps.get-release.outputs.downloaded_files)[0] }} -d ./Build
-          grub-mkfont -o ./Build/x1/SmileySans-Oblique_32.pf2 -s 32 -v ./Build/SmileySans-Oblique.ttf
-          grub-mkfont -o ./Build/x1/SmileySans-Oblique_48.pf2 -s 48 -v ./Build/SmileySans-Oblique.ttf
-          grub-mkfont -o ./Build/x2/SmileySans-Oblique_64.pf2 -s 64 -v ./Build/SmileySans-Oblique.ttf
-          grub-mkfont -o ./Build/x2/SmileySans-Oblique_96.pf2 -s 96 -v ./Build/SmileySans-Oblique.ttf
-          find . -type d -name "568flat*" ! -name "568flat_x*" -exec bash -c 'cp -v -u -r "./Build/x1/SmileySans-Oblique_32.pf2" "{}/"' \;
-          find . -type d -name "568flat*" ! -name "568flat_x*" -exec bash -c 'cp -v -u -r "./Build/x1/SmileySans-Oblique_48.pf2" "{}/"' \;
-          find . -type d -name "568flat_x2*" -exec bash -c 'cp -v -u -r "./Build/x2/SmileySans-Oblique_64.pf2" "{}/"' \;
-          find . -type d -name "568flat_x2*" -exec bash -c 'cp -v -u -r "./Build/x2/SmileySans-Oblique_96.pf2" "{}/"' \;
-
-    - name: Place Components
-      run: |
-          # 公共
-          find . -maxdepth 1 -type d -name "568flat*" | xargs -I {} sh -c 'cp -v $(find ./assets/Components/ -maxdepth 1 -type f -name "*.png") {}/'
-          # 分辨率
-          find . -maxdepth 1 -type d -name "568flat*" ! -name "568flat_x*" | xargs -I {} sh -c 'cp -v $(find ./assets/Components/x1/ -maxdepth 1 -type f -name "*.png") {}/'
-          find . -maxdepth 1 -type d -name "568flat_x2*" | xargs -I {} sh -c 'cp -v $(find ./assets/Components/x2/ -maxdepth 1 -type f -name "*.png") {}/'
-          # 语言和分辨率
-          find . -maxdepth 1 -type d -name "568flat*" ! -name "568flat_x*" ! -name "*-en" | xargs -I {} sh -c 'cp -v $(find ./assets/Components/x1/zh/ -maxdepth 1 -type f -name "*.png") {}/'
-          find . -maxdepth 1 -type d -name "568flat*-en" ! -name "568flat_x*" | xargs -I {} sh -c 'cp -v $(find ./assets/Components/x1/en/ -maxdepth 1 -type f -name "*.png") {}/'
-          find . -maxdepth 1 -type d ! -name "*-en" -name "568flat_x2*" | xargs -I {} sh -c 'cp -v $(find ./assets/Components/x2/zh/ -maxdepth 1 -type f -name "*.png") {}/'
-          find . -maxdepth 1 -type d -name "*-en" -name "568flat_x2*" | xargs -I {} sh -c 'cp -v $(find ./assets/Components/x2/en/ -maxdepth 1 -type f -name "*.png") {}/'
-              
-    - name: Pack
-      run: |
-          mkdir Release
-          find . -type d -name "568flat*" -exec bash -c 'zip -r "./Release/$(basename {}).zip" "{}"' \;
+          chmod +x build.bash
+          ./build.bash
 
     - name: Create release
       uses: ncipollo/release-action@v1
@@ -66,4 +24,4 @@ jobs:
         token: ${{ secrets.TOKEN }}
         generateReleaseNotes: true
         tag: ${{ github.ref_name }}
-        artifacts: Release/*
+        artifacts: Release/**

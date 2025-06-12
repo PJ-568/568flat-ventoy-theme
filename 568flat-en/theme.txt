@@ -4,7 +4,7 @@
 # 全局设置 | General
 title-text: ""
 desktop-color: "#f9f7f0"
-# message-font: "Smiley Sans Italic 32"
+# message-font: "Maple Mono CN Regular 32"
 message-color: "#072a40"
 terminal-left: "50%-512"
 terminal-top: "50%-272"
@@ -25,7 +25,7 @@ terminal-height: "544"
   }
   # + label {
   #   text = "Ventoy"
-  #   font = "Smiley Sans Italic 48"
+  #   font = "Maple Mono CN Regular 48"
   #   color = "#072a40"
   # }
   + image {
@@ -72,7 +72,7 @@ terminal-height: "544"
 #   width = 256
 #   height = 544
 #   + label {text = "@VTOY_HOTKEY_TIP@"
-#     font = "Smiley Sans Italic 32"
+#     font = "Maple Mono CN Regular 32"
 #     color = "#f9f7f0"
 #     align = "center"
 #   } 
@@ -84,52 +84,45 @@ terminal-height: "544"
   height = 544
   + label {
     text = "[e]  Edit"
-    font = "Smiley Sans Italic 32"
+    font = "Maple Mono CN Regular 32"
     color = "#f9f7f0"
   }
   + label {
     text = "[c]  Command"
-    font = "Smiley Sans Italic 32"
+    font = "Maple Mono CN Regular 32"
     color = "#f9f7f0"
   }
   + label {
     text = "[F1] Help"
-    font = "Smiley Sans Italic 32"
+    font = "Maple Mono CN Regular 32"
     color = "#f9f7f0"
   }
   + label {
     text = "[F2] Browser"
-    font = "Smiley Sans Italic 32"
+    font = "Maple Mono CN Regular 32"
     color = "#f9f7f0"
   }
   + label {
     text = "[F3] ListView"
-    font = "Smiley Sans Italic 32"
+    font = "Maple Mono CN Regular 32"
     color = "#f9f7f0"
   }
   + label {
     text = "[F4] Localboot"
-    font = "Smiley Sans Italic 32"
+    font = "Maple Mono CN Regular 32"
     color = "#f9f7f0"
   }
   + label {
     text = "[F5] Tools"
-    font = "Smiley Sans Italic 32"
+    font = "Maple Mono CN Regular 32"
     color = "#f9f7f0"
   }
   + label {
     text = "[F6] ExMenu"
-    font = "Smiley Sans Italic 32"
+    font = "Maple Mono CN Regular 32"
     color = "#f9f7f0"
   }
 }
-# + image {
-#   file = "Info-en.png"
-#   left = 50%+256
-#   top = 50%-272
-#   width = 256
-#   height = 544
-# }
 
 
 # 工具栏 | Information box
@@ -147,7 +140,7 @@ terminal-height: "544"
   id = "__timeout__"
   # text = "@TIMEOUT_NOTIFICATION_SHORT@"
   text = "%ds"
-  font = "Smiley Sans Italic 32"
+  font = "Maple Mono CN Regular 32"
   align = "center"
 
   left = 50%+192
@@ -168,43 +161,43 @@ terminal-height: "544"
   top = 50%+209
   height = 62
   + label {
-    text = ":-)"
-    font = "Smiley Sans Italic 32"
+    text = "=)"
+    font = "Maple Mono CN Regular 32"
     width = 64
     color = "#f9f7f0"
     align = "center"
   }
   + label {
     text = "@VTOY_MEM_DISK@"
-    font = "Smiley Sans Italic 32"
+    font = "Maple Mono CN Regular 32"
     width = 136
     color = "#f9f7f0"
     align = "center"
   }
   + label {
     text = "@VTOY_ISO_RAW@"
-    font = "Smiley Sans Italic 32"
+    font = "Maple Mono CN Regular 32"
     width = 230
     color = "#f9f7f0"
     align = "center"
   }
   + label {
     text = "@VTOY_GRUB2_MODE@"
-    font = "Smiley Sans Italic 32"
+    font = "Maple Mono CN Regular 32"
     width = 136
     color = "#f9f7f0"
     align = "center"
   }
   + label {
     text = "@VTOY_ISO_UEFI_DRV@"
-    font = "Smiley Sans Italic 32"
+    font = "Maple Mono CN Regular 32"
     width = 136
     color = "#f9f7f0"
     align = "center"
   }
   # + label {
   #   text = "@VTOY_WIMBOOT_MODE@"
-  #   font = "Smiley Sans Italic 32"
+  #   font = "Maple Mono CN Regular 32"
   #   width = 160
   #   color = "#f9f7f0"
   #   align = "center"
@@ -229,7 +222,7 @@ terminal-height: "544"
   top = 50%-208
   height = 416
 
-  item_font = "Smiley Sans Italic 32"
+  item_font = "Maple Mono CN Regular 32"
   item_color = "#072a40"
   selected_item_color = "#f9f7f0"
   # item_icon_space = 32
