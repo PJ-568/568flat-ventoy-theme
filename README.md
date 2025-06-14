@@ -12,6 +12,10 @@ English | [简体中文](README.zh-Hans.md)
 >
 > If your screen resolution is over 2048x1088, please use [568flat_x2](#568flat_x2-installation) for better experience.
 
+|![界面](assets/界面.jpg)|![低分辨率](assets/低分辨率.jpg)|
+|-|-|
+|![提示](assets/提示.jpg)|![终端](assets/终端.jpg)|
+
 ## Installation
 
 If the resolution is not over 2048x1088, please goto [568flat Installation](#568flat-installation); Else, goto [568flat_x2 Installation](#568flat_x2-installation).
