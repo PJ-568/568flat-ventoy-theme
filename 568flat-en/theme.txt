@@ -78,47 +78,47 @@ terminal-height: "544"
 #   } 
 # }
 + vbox {
-  left = 50%+288
-  top = 50%-208
+  left = 50%+272
+  top = 50%-240
   width = 256
   height = 544
   + label {
-    text = "[e]  Edit"
+    text = "[e] Edit"
     font = "Maple Mono CN Regular 32"
     color = "#f9f7f0"
   }
   + label {
-    text = "[c]  Command"
+    text = "[c] Command"
     font = "Maple Mono CN Regular 32"
     color = "#f9f7f0"
   }
   + label {
-    text = "[F1] Help"
+    text = "[F1]Help"
     font = "Maple Mono CN Regular 32"
     color = "#f9f7f0"
   }
   + label {
-    text = "[F2] Browser"
+    text = "[F2]Browser"
     font = "Maple Mono CN Regular 32"
     color = "#f9f7f0"
   }
   + label {
-    text = "[F3] ListView"
+    text = "[F3]ListView"
     font = "Maple Mono CN Regular 32"
     color = "#f9f7f0"
   }
   + label {
-    text = "[F4] Localboot"
+    text = "[F4]Localboot"
     font = "Maple Mono CN Regular 32"
     color = "#f9f7f0"
   }
   + label {
-    text = "[F5] Tools"
+    text = "[F5]Tools"
     font = "Maple Mono CN Regular 32"
     color = "#f9f7f0"
   }
   + label {
-    text = "[F6] ExMenu"
+    text = "[F6]ExMenu"
     font = "Maple Mono CN Regular 32"
     color = "#f9f7f0"
   }

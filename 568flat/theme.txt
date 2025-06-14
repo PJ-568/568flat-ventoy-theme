@@ -78,47 +78,47 @@ terminal-height: "544"
 #   } 
 # }
 + vbox {
-  left = 50%+288
-  top = 50%-208
+  left = 50%+272
+  top = 50%-240
   width = 256
   height = 544
   + label {
-    text = "[e]  编辑命令"
+    text = "[e] 编辑命令"
     font = "Maple Mono CN Regular 32"
     color = "#f9f7f0"
   }
   + label {
-    text = "[c]  命令行"
+    text = "[c] 命令行"
     font = "Maple Mono CN Regular 32"
     color = "#f9f7f0"
   }
   + label {
-    text = "[F1] 帮助信息"
+    text = "[F1]帮助信息"
     font = "Maple Mono CN Regular 32"
     color = "#f9f7f0"
   }
   + label {
-    text = "[F2] 本地镜像"
+    text = "[F2]本地镜像"
     font = "Maple Mono CN Regular 32"
     color = "#f9f7f0"
   }
   + label {
-    text = "[F3] 菜单模式"
+    text = "[F3]菜单模式"
     font = "Maple Mono CN Regular 32"
     color = "#f9f7f0"
   }
   + label {
-    text = "[F4] 本地启动"
+    text = "[F4]本地启动"
     font = "Maple Mono CN Regular 32"
     color = "#f9f7f0"
   }
   + label {
-    text = "[F5] 工具菜单"
+    text = "[F5]工具菜单"
     font = "Maple Mono CN Regular 32"
     color = "#f9f7f0"
   }
   + label {
-    text = "[F6] 自定义"
+    text = "[F6]自定义"
     font = "Maple Mono CN Regular 32"
     color = "#f9f7f0"
   }
